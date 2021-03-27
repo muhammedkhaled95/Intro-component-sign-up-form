@@ -1,0 +1,156 @@
+/*Global*/
+body{
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+}
+
+.major-division{
+  margin: auto;
+}
+/* Intro section styling */
+
+#intro{
+  /* text color of the intro section is white */
+  color: white;
+  /* intro section will float to the left */
+  float: left;
+  width: 40%;
+  margin-top: 15%;
+  margin-left: 10%;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1;
+}
+
+.main-paragraph{
+  font-size: 16px;
+}
+
+/****************************************form section******************************************/
+#myform{
+  float: right;
+  width: 35%;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-bottom: 7%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.form-content-and-footer{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
+}
+
+.pricing-paragraph{
+  width: 93%;
+  border: 1px solid hsl(248, 32%, 49%);
+  border-radius: 10px;
+  background-color: hsl(248, 32%, 49%);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
+}
+
+.input{
+  width:90%;
+  display: block;
+  margin: 7px auto;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+
+.button{
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  padding: 15px;
+  width:94%;
+  display: block;
+  margin: 30px auto 5px auto;
+  border-radius: 10px;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+
+.button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form-content-and-footer p{
+  color: hsl(246, 25%, 77%);
+  font-size: 10px;
+  text-align: center;
+}
+
+.terms{
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+  font-size: 10px;
+}
+
+
+.form-control{
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-control img{
+  position: absolute;
+  top:10px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.error{
+  visibility: visible !important;
+}
+
+.error-message{
+  position: absolute;
+  left:300px;
+  font-size: 8px;
+  color: hsl(0, 100%, 74%);
+  visibility: hidden;
+}
+
+.show-error-message{
+  visibility: visible !important;
+}
+
+.error-border{
+  border: 2px solid hsl(0, 100%, 74%);
+}
+
+/***********************************Media Queries*********************************/
+
+@media screen and (max-width: 892px){
+  h1{
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  #myform{
+    float: none;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  #intro{
+    float: none;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+}
