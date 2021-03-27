@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://muhammedkhaled95.github.io/Intro-component-sign-up-form/)
+- Live Site URL: [Sign Up form web page](https://muhammedkhaled95.github.io/Intro-component-sign-up-form/)
 
 ## My process
 
